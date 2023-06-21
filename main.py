@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path='C:/Users/Mohammed/Downloads/chromedriver_win32/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='<insert path here>')
 driver.get('https://oxylabs.io/blog')
 results = []
 other_results = []
